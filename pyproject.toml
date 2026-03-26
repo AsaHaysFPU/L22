@@ -10,4 +10,4 @@ dependencies = [
 
 [tool.poetry]
 package-mode = false
-packages = []
+packages = [{ include = "crypto_dashboard" }]
