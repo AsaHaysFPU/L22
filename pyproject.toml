@@ -8,5 +8,9 @@ dependencies = [
     "requests>=2.31"
 ]
 
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [tool.poetry]
 package-mode = false
