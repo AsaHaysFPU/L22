@@ -1,5 +1,5 @@
 [project]
-name = "crypto-dashboard"
+name = "pa4-dashboard"
 version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
@@ -10,4 +10,3 @@ dependencies = [
 
 [tool.poetry]
 package-mode = false
-packages = [{ include = "crypto_dashboard" }]
