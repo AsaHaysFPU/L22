@@ -1,5 +1,5 @@
 [project]
-name = "pa4-dashboard"
+name = "crypto-dashboard"
 version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
@@ -13,5 +13,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.poetry]
-package-mode = false
-build-backend = "setuptools.build_meta"
+name = "crypto-dashboard"
+version = "0.1.0"
+description = "Crypto market dashboard for Streamlit"
+authors = ["Asa Hays"]
+packages = [{ include = "crypto_dashboard" }]
